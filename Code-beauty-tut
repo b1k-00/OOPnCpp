@@ -24,7 +24,6 @@ public: //access modifier
 
 int main()
 {
-    int number;
     Employee employee1;
     employee1.Name = "B1k";
     employee1.Company = "YT C0LL1n5";
