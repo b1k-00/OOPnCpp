@@ -1,0 +1,35 @@
+#include <iostream>
+
+using namespace std;
+
+class Employee {
+    //this is my class
+    //rm all things inside are private and 
+    //cannot be accessed (3 diff types: priv, public, protected)
+
+public: //access modifier
+
+    string Name;
+    string Company;
+    int Age;
+    
+    void IntroduceYourself(){ //class method ---function
+    //method makes it easier to reuse
+        cout<< "Name - " << Name << endl;
+        cout<< "Company - " << Company << endl;
+        cout<< "Age - " << Age << endl;
+    }
+    
+};
+
+int main()
+{
+    int number;
+    Employee employee1;
+    employee1.Name = "B1k";
+    employee1.Company = "YT C0LL1n5";
+    employee1.Age = 23;
+    employee1.IntroduceYourself();
+    
+    return 0;
+}
